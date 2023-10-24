@@ -1,0 +1,29 @@
+{
+    "name": "artaskynet/id",
+    "description": "",
+    "keywords": ["auth", "laravel", "artaskynet"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artaskynet\\Id\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Serov",
+            "email": "sergomorello@yandex.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Artaskynet\\Id\\ArtaidServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~7.5"
+    }
+}
