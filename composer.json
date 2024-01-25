@@ -1,6 +1,7 @@
 {
     "name": "artaskynet/id",
     "description": "",
+	"version": "0.0.1",
     "keywords": ["auth", "laravel", "artaskynet"],
     "type": "library",
     "license": "MIT",
