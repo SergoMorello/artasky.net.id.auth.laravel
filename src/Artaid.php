@@ -23,6 +23,7 @@ class Artaid extends Controller {
 		$user->patronymic = $this->user['patronymic'];
 		$user->email = $this->user['email'];
 		$user->admin = $this->user['admin'];
+		$user->phone = $this->user['phone'];
 
 		$user->save();
 
